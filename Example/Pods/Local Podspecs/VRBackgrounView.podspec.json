@@ -1,7 +1,8 @@
 {
   "name": "VRBackgrounView",
   "version": "1.0.0",
-  "summary": "A short description of VRBackgrounView.",
+  "summary": "Esta libreria cambia el background a color azul de un view",
+  "swift_versions": "5.0",
   "description": "Esta librería aplica un color de background a un view",
   "homepage": "https://github.com/victorroldan25/VRBackgrounView",
   "license": {
@@ -18,5 +19,6 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "VRBackgrounView/Classes/**/*"
+  "source_files": "VRBackgrounView/Classes/**/*",
+  "swift_version": "5.0"
 }
