@@ -1,0 +1,6 @@
+framework module VRBackgrounView {
+  umbrella header "VRBackgrounView-umbrella.h"
+
+  export *
+  module * { export * }
+}

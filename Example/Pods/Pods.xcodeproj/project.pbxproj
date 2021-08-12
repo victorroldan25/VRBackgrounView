@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0EA3F7B1DC658FC192D109CDA14026 /* Pods-VRBackgrounView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC8F9CD65638469578EBB04A76419FD /* Pods-VRBackgrounView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3022854527BC31E96559B41595AC99C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		338EF3C19EF44CFDC339C72DDDB6953E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		42C9895A3AF66DC7A13B7EB0EA78B54F /* Pods-VRBackgrounView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA64D74463550B302D73F1B092F250B /* Pods-VRBackgrounView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BFA1D5F33AC6383B5B9E02F5FE7C3C2 /* VRBackgrounView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06219C120BA12241EE4D851F55FB57DA /* VRBackgrounView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992882F2D2E39B7F433BAE0324A0088A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B18EEA5C54C0D00301A9084C743B3D58 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EBDB1B5E234EF8DA9FFADEE4B8DC7C /* ReplaceMe.swift */; };
+		C77B0DB74DE2FF01B9B519C88E83CBB7 /* Pods-VRBackgrounView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02101704D3B04C07BDE117C98892F23F /* Pods-VRBackgrounView_Tests-dummy.m */; };
+		F45FAB78DD4E2694363692E48EF1C978 /* VRBackgrounView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1ECD9535395FE4EE575D4453DCE866 /* VRBackgrounView-dummy.m */; };
+		FCC76440FA558940EE118CF06D360DB3 /* Pods-VRBackgrounView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F07A74A71253C8A9786AD2433892AAC /* Pods-VRBackgrounView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806AE5D6A985CADA72B27BD5C7566219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8BADE12CB8C61B16A3ACCDF5025AE6;
+			remoteInfo = "Pods-VRBackgrounView_Example";
+		};
+		899AC7BD284E2578A9F5437B540AA38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F55712854495273C83F95CB229A092F;
+			remoteInfo = VRBackgrounView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016D519A56AC8E209693AD6EC36D2611 /* Pods-VRBackgrounView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRBackgrounView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		02101704D3B04C07BDE117C98892F23F /* Pods-VRBackgrounView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRBackgrounView_Tests-dummy.m"; sourceTree = "<group>"; };
+		05C1EC4FCA2C85609D5397D7C5C1D0D4 /* Pods-VRBackgrounView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRBackgrounView_Tests-Info.plist"; sourceTree = "<group>"; };
+		06219C120BA12241EE4D851F55FB57DA /* VRBackgrounView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VRBackgrounView-umbrella.h"; sourceTree = "<group>"; };
+		0F07A74A71253C8A9786AD2433892AAC /* Pods-VRBackgrounView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRBackgrounView_Example-dummy.m"; sourceTree = "<group>"; };
+		1CA64D74463550B302D73F1B092F250B /* Pods-VRBackgrounView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRBackgrounView_Example-umbrella.h"; sourceTree = "<group>"; };
+		27C88330C7DC9D241655003F46929B8D /* Pods-VRBackgrounView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VRBackgrounView_Example.modulemap"; sourceTree = "<group>"; };
+		3682E3899A592D6F6AFDFC8013C05249 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3F2FD90321081A93E2011E4DF045A528 /* Pods-VRBackgrounView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRBackgrounView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57DAA384B6464FE9A24BD629A236FE9F /* VRBackgrounView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VRBackgrounView-Info.plist"; sourceTree = "<group>"; };
+		5B6F20CF2C1F3F39C11FC5931C36E0CE /* Pods-VRBackgrounView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRBackgrounView_Example-Info.plist"; sourceTree = "<group>"; };
+		5E784C80D94587D79800D7B0C1FFE3CF /* VRBackgrounView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VRBackgrounView.release.xcconfig; sourceTree = "<group>"; };
+		62E4E50DD8E12273AE9359EC4E43386F /* Pods-VRBackgrounView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VRBackgrounView_Example"; path = Pods_VRBackgrounView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C61F7D58E9C168F3A0EE278258C8861 /* Pods-VRBackgrounView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VRBackgrounView_Tests"; path = Pods_VRBackgrounView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76E1051182A584B7D869DE9A283964F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7BCC4BFDBCEFF1439712B23A4DD38BFF /* Pods-VRBackgrounView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRBackgrounView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C2BF1CD276C1C5058A666059D887E85 /* VRBackgrounView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VRBackgrounView.modulemap; sourceTree = "<group>"; };
+		8D4E1A02BCD760F95A86C1EF8534D519 /* VRBackgrounView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VRBackgrounView; path = VRBackgrounView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE89561916F5127912496B9B81B48B68 /* VRBackgrounView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VRBackgrounView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3E8A0FA4083107D04CF1DFB73F4720A /* Pods-VRBackgrounView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRBackgrounView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4EBDB1B5E234EF8DA9FFADEE4B8DC7C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VRBackgrounView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B88DFBDE8BB792F6D8D38CCD60D20C3F /* Pods-VRBackgrounView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRBackgrounView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCEE0B1FF4182EEF2473BD1F1DD968C2 /* Pods-VRBackgrounView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VRBackgrounView_Tests.modulemap"; sourceTree = "<group>"; };
+		BE3EB377718181C88662E58DE687230D /* Pods-VRBackgrounView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRBackgrounView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9D69C02735D4E52E33362769C4087D2 /* Pods-VRBackgrounView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRBackgrounView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC8F9CD65638469578EBB04A76419FD /* Pods-VRBackgrounView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRBackgrounView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D31A75BA0F4F1A83DA02F33E6C58C3BB /* VRBackgrounView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VRBackgrounView-prefix.pch"; sourceTree = "<group>"; };
+		DB1ECD9535395FE4EE575D4453DCE866 /* VRBackgrounView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VRBackgrounView-dummy.m"; sourceTree = "<group>"; };
+		DC961C7D6629D80D168AE8BAD7D9F918 /* Pods-VRBackgrounView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRBackgrounView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E4063C362CD0ED86A7861183C828D10B /* VRBackgrounView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VRBackgrounView.debug.xcconfig; sourceTree = "<group>"; };
+		F3A0AEC5DF7452E1B0209D78422F36C0 /* Pods-VRBackgrounView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRBackgrounView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE9DA472BF0C49893F620DD2429766B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3022854527BC31E96559B41595AC99C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6638059163F709BBE58C1BB987043D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992882F2D2E39B7F433BAE0324A0088A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB01A5EB020D28D20D03876436C44DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338EF3C19EF44CFDC339C72DDDB6953E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E34B96531FE69BBF586A970422B193C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E4E50DD8E12273AE9359EC4E43386F /* Pods-VRBackgrounView_Example */,
+				6C61F7D58E9C168F3A0EE278258C8861 /* Pods-VRBackgrounView_Tests */,
+				8D4E1A02BCD760F95A86C1EF8534D519 /* VRBackgrounView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6125ED31A36F6020D533CCC221F107F9 /* VRBackgrounView */ = {
+			isa = PBXGroup;
+			children = (
+				B4EBDB1B5E234EF8DA9FFADEE4B8DC7C /* ReplaceMe.swift */,
+				65494FAD11991AA08A9BF40EB541658D /* Pod */,
+				6EB1144F58348C213E1E15F7638BAB09 /* Support Files */,
+			);
+			name = VRBackgrounView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		65494FAD11991AA08A9BF40EB541658D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				76E1051182A584B7D869DE9A283964F0 /* LICENSE */,
+				3682E3899A592D6F6AFDFC8013C05249 /* README.md */,
+				AE89561916F5127912496B9B81B48B68 /* VRBackgrounView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6EB1144F58348C213E1E15F7638BAB09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2BF1CD276C1C5058A666059D887E85 /* VRBackgrounView.modulemap */,
+				DB1ECD9535395FE4EE575D4453DCE866 /* VRBackgrounView-dummy.m */,
+				57DAA384B6464FE9A24BD629A236FE9F /* VRBackgrounView-Info.plist */,
+				D31A75BA0F4F1A83DA02F33E6C58C3BB /* VRBackgrounView-prefix.pch */,
+				06219C120BA12241EE4D851F55FB57DA /* VRBackgrounView-umbrella.h */,
+				E4063C362CD0ED86A7861183C828D10B /* VRBackgrounView.debug.xcconfig */,
+				5E784C80D94587D79800D7B0C1FFE3CF /* VRBackgrounView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VRBackgrounView";
+			sourceTree = "<group>";
+		};
+		9902BF8A13C3600D59A84165079F9470 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A124F984E05C75E8F7AEF783C6C2DB /* Pods-VRBackgrounView_Example */,
+				C51FCA2F2715338B72C37E193D1B2225 /* Pods-VRBackgrounView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC34AE62E3F79869A1362D837703CB9A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6125ED31A36F6020D533CCC221F107F9 /* VRBackgrounView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C51FCA2F2715338B72C37E193D1B2225 /* Pods-VRBackgrounView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE0B1FF4182EEF2473BD1F1DD968C2 /* Pods-VRBackgrounView_Tests.modulemap */,
+				7BCC4BFDBCEFF1439712B23A4DD38BFF /* Pods-VRBackgrounView_Tests-acknowledgements.markdown */,
+				B88DFBDE8BB792F6D8D38CCD60D20C3F /* Pods-VRBackgrounView_Tests-acknowledgements.plist */,
+				02101704D3B04C07BDE117C98892F23F /* Pods-VRBackgrounView_Tests-dummy.m */,
+				05C1EC4FCA2C85609D5397D7C5C1D0D4 /* Pods-VRBackgrounView_Tests-Info.plist */,
+				CCC8F9CD65638469578EBB04A76419FD /* Pods-VRBackgrounView_Tests-umbrella.h */,
+				C9D69C02735D4E52E33362769C4087D2 /* Pods-VRBackgrounView_Tests.debug.xcconfig */,
+				B3E8A0FA4083107D04CF1DFB73F4720A /* Pods-VRBackgrounView_Tests.release.xcconfig */,
+			);
+			name = "Pods-VRBackgrounView_Tests";
+			path = "Target Support Files/Pods-VRBackgrounView_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BC34AE62E3F79869A1362D837703CB9A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4E34B96531FE69BBF586A970422B193C /* Products */,
+				9902BF8A13C3600D59A84165079F9470 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9A124F984E05C75E8F7AEF783C6C2DB /* Pods-VRBackgrounView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				27C88330C7DC9D241655003F46929B8D /* Pods-VRBackgrounView_Example.modulemap */,
+				F3A0AEC5DF7452E1B0209D78422F36C0 /* Pods-VRBackgrounView_Example-acknowledgements.markdown */,
+				BE3EB377718181C88662E58DE687230D /* Pods-VRBackgrounView_Example-acknowledgements.plist */,
+				0F07A74A71253C8A9786AD2433892AAC /* Pods-VRBackgrounView_Example-dummy.m */,
+				DC961C7D6629D80D168AE8BAD7D9F918 /* Pods-VRBackgrounView_Example-frameworks.sh */,
+				5B6F20CF2C1F3F39C11FC5931C36E0CE /* Pods-VRBackgrounView_Example-Info.plist */,
+				1CA64D74463550B302D73F1B092F250B /* Pods-VRBackgrounView_Example-umbrella.h */,
+				3F2FD90321081A93E2011E4DF045A528 /* Pods-VRBackgrounView_Example.debug.xcconfig */,
+				016D519A56AC8E209693AD6EC36D2611 /* Pods-VRBackgrounView_Example.release.xcconfig */,
+			);
+			name = "Pods-VRBackgrounView_Example";
+			path = "Target Support Files/Pods-VRBackgrounView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B1FC89A101CA0161D88CF3AC117F348 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0EA3F7B1DC658FC192D109CDA14026 /* Pods-VRBackgrounView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18CB4C8FF72D60A29CC81777FA37A1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFA1D5F33AC6383B5B9E02F5FE7C3C2 /* VRBackgrounView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF853E8BD8FFA43A3C66A0A13258A1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C9895A3AF66DC7A13B7EB0EA78B54F /* Pods-VRBackgrounView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B8BADE12CB8C61B16A3ACCDF5025AE6 /* Pods-VRBackgrounView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5F8EFDAE95F5364597DD0F6340EF68 /* Build configuration list for PBXNativeTarget "Pods-VRBackgrounView_Example" */;
+			buildPhases = (
+				EAF853E8BD8FFA43A3C66A0A13258A1F /* Headers */,
+				03FFA0C25DF131215F4826BCEF1BF0C2 /* Sources */,
+				A6638059163F709BBE58C1BB987043D1 /* Frameworks */,
+				8D3C6FAACEACCA79973953A86D8B66BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12536D7A5C9E55C1A9F2AEF82214FB1A /* PBXTargetDependency */,
+			);
+			name = "Pods-VRBackgrounView_Example";
+			productName = Pods_VRBackgrounView_Example;
+			productReference = 62E4E50DD8E12273AE9359EC4E43386F /* Pods-VRBackgrounView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		38AAEA5063C455CDB294A97157C7E5D4 /* Pods-VRBackgrounView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B979DBBB761EF10C71DD6B94C7B451 /* Build configuration list for PBXNativeTarget "Pods-VRBackgrounView_Tests" */;
+			buildPhases = (
+				0B1FC89A101CA0161D88CF3AC117F348 /* Headers */,
+				2A2350194CC6E83EFABAB13714BAF671 /* Sources */,
+				EB01A5EB020D28D20D03876436C44DB4 /* Frameworks */,
+				85EBC0E791B1A21173B528C41D8E79F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA793BEB933734AE08D8D9FC45C8427 /* PBXTargetDependency */,
+			);
+			name = "Pods-VRBackgrounView_Tests";
+			productName = Pods_VRBackgrounView_Tests;
+			productReference = 6C61F7D58E9C168F3A0EE278258C8861 /* Pods-VRBackgrounView_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F55712854495273C83F95CB229A092F /* VRBackgrounView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBCBD5E83ECC9E8CD08E68C5CB8FFB5 /* Build configuration list for PBXNativeTarget "VRBackgrounView" */;
+			buildPhases = (
+				D18CB4C8FF72D60A29CC81777FA37A1F /* Headers */,
+				D4B194B00B080C30FC8F369356F6A833 /* Sources */,
+				9FE9DA472BF0C49893F620DD2429766B /* Frameworks */,
+				5DD75A230194862AEC05BDB1E2C47931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRBackgrounView;
+			productName = VRBackgrounView;
+			productReference = 8D4E1A02BCD760F95A86C1EF8534D519 /* VRBackgrounView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E34B96531FE69BBF586A970422B193C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8BADE12CB8C61B16A3ACCDF5025AE6 /* Pods-VRBackgrounView_Example */,
+				38AAEA5063C455CDB294A97157C7E5D4 /* Pods-VRBackgrounView_Tests */,
+				8F55712854495273C83F95CB229A092F /* VRBackgrounView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DD75A230194862AEC05BDB1E2C47931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EBC0E791B1A21173B528C41D8E79F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3C6FAACEACCA79973953A86D8B66BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FFA0C25DF131215F4826BCEF1BF0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC76440FA558940EE118CF06D360DB3 /* Pods-VRBackgrounView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2350194CC6E83EFABAB13714BAF671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77B0DB74DE2FF01B9B519C88E83CBB7 /* Pods-VRBackgrounView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B194B00B080C30FC8F369356F6A833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18EEA5C54C0D00301A9084C743B3D58 /* ReplaceMe.swift in Sources */,
+				F45FAB78DD4E2694363692E48EF1C978 /* VRBackgrounView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12536D7A5C9E55C1A9F2AEF82214FB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VRBackgrounView;
+			target = 8F55712854495273C83F95CB229A092F /* VRBackgrounView */;
+			targetProxy = 899AC7BD284E2578A9F5437B540AA38C /* PBXContainerItemProxy */;
+		};
+		6EA793BEB933734AE08D8D9FC45C8427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VRBackgrounView_Example";
+			target = 1B8BADE12CB8C61B16A3ACCDF5025AE6 /* Pods-VRBackgrounView_Example */;
+			targetProxy = 806AE5D6A985CADA72B27BD5C7566219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		215D9740235086656A862DDEB14A03A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D69C02735D4E52E33362769C4087D2 /* Pods-VRBackgrounView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRBackgrounView_Tests/Pods-VRBackgrounView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRBackgrounView_Tests/Pods-VRBackgrounView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2A5BEB4F82576626801B6E61984D1BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4063C362CD0ED86A7861183C828D10B /* VRBackgrounView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VRBackgrounView/VRBackgrounView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VRBackgrounView/VRBackgrounView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VRBackgrounView/VRBackgrounView.modulemap";
+				PRODUCT_MODULE_NAME = VRBackgrounView;
+				PRODUCT_NAME = VRBackgrounView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30659C499F961286F296020FF2302A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2FD90321081A93E2011E4DF045A528 /* Pods-VRBackgrounView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRBackgrounView_Example/Pods-VRBackgrounView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRBackgrounView_Example/Pods-VRBackgrounView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53F74E7B192A5AF03DF7ABEB85EA3433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E784C80D94587D79800D7B0C1FFE3CF /* VRBackgrounView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VRBackgrounView/VRBackgrounView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VRBackgrounView/VRBackgrounView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VRBackgrounView/VRBackgrounView.modulemap";
+				PRODUCT_MODULE_NAME = VRBackgrounView;
+				PRODUCT_NAME = VRBackgrounView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99B32A51385B099569159847EA12BCC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016D519A56AC8E209693AD6EC36D2611 /* Pods-VRBackgrounView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRBackgrounView_Example/Pods-VRBackgrounView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRBackgrounView_Example/Pods-VRBackgrounView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E8428BC658903AE6A0227A7C4D8D88DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E8A0FA4083107D04CF1DFB73F4720A /* Pods-VRBackgrounView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRBackgrounView_Tests/Pods-VRBackgrounView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRBackgrounView_Tests/Pods-VRBackgrounView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5F8EFDAE95F5364597DD0F6340EF68 /* Build configuration list for PBXNativeTarget "Pods-VRBackgrounView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30659C499F961286F296020FF2302A04 /* Debug */,
+				99B32A51385B099569159847EA12BCC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBCBD5E83ECC9E8CD08E68C5CB8FFB5 /* Build configuration list for PBXNativeTarget "VRBackgrounView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5BEB4F82576626801B6E61984D1BBB /* Debug */,
+				53F74E7B192A5AF03DF7ABEB85EA3433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B979DBBB761EF10C71DD6B94C7B451 /* Build configuration list for PBXNativeTarget "Pods-VRBackgrounView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215D9740235086656A862DDEB14A03A8 /* Debug */,
+				E8428BC658903AE6A0227A7C4D8D88DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

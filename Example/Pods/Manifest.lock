@@ -1,0 +1,16 @@
+PODS:
+  - VRBackgrounView (0.1.0)
+
+DEPENDENCIES:
+  - VRBackgrounView (from `../`)
+
+EXTERNAL SOURCES:
+  VRBackgrounView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VRBackgrounView: 0dfef772bdbb5e5ecf96095e5fe7cad9f1ab9113
+
+PODFILE CHECKSUM: ef20a5044185600f245723855c808da58b9949b2
+
+COCOAPODS: 1.11.0.beta.2

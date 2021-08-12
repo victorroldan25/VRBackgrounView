@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37DDCA3F311CBBC872B6429F /* VRBackgrounView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VRBackgrounView.podspec; path = ../VRBackgrounView.podspec; sourceTree = "<group>"; };
+		37DDCA3F311CBBC872B6429F /* VRBackgrounView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VRBackgrounView.podspec; path = ../VRBackgrounView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* VRBackgrounView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRBackgrounView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		84D15C2E6A50752557F0E493 /* Pods_VRBackgrounView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRBackgrounView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF599F715D08322930603D8 /* Pods-VRBackgrounView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRBackgrounView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VRBackgrounView_Tests/Pods-VRBackgrounView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B465BB50CC62BA2B0FDAD309 /* Pods-VRBackgrounView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRBackgrounView_Example.release.xcconfig"; path = "Target Support Files/Pods-VRBackgrounView_Example/Pods-VRBackgrounView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CFBBF13555C1575EEB540D0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E46908747D3AC8D1E4FB782F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFBBF13555C1575EEB540D0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E46908747D3AC8D1E4FB782F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F81426D9D6C9DC6DFE09FCD7 /* Pods_VRBackgrounView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRBackgrounView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF25E0B7D20CD274D0AAA15C /* Pods-VRBackgrounView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRBackgrounView_Tests.release.xcconfig"; path = "Target Support Files/Pods-VRBackgrounView_Tests/Pods-VRBackgrounView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				9FF599F715D08322930603D8 /* Pods-VRBackgrounView_Tests.debug.xcconfig */,
 				FF25E0B7D20CD274D0AAA15C /* Pods-VRBackgrounView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
