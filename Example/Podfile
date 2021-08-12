@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VRBackgrounView_Example' do
+  pod 'VRBackgrounView', :path => '../'
+
+  target 'VRBackgrounView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
