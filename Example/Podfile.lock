@@ -1,5 +1,5 @@
 PODS:
-  - VRBackgrounView (0.1.0)
+  - VRBackgrounView (1.0.0)
 
 DEPENDENCIES:
   - VRBackgrounView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VRBackgrounView: 0dfef772bdbb5e5ecf96095e5fe7cad9f1ab9113
+  VRBackgrounView: ba91e9d509e6fa10336af1597d752614d8b0860b
 
 PODFILE CHECKSUM: ef20a5044185600f245723855c808da58b9949b2
 

@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Victor Roldan' => 'victorroldan25@gmail.com' }
-  s.source           = { :git => 'https://github.com/Victor Roldan/VRBackgrounView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/victorroldan25/VRBackgrounView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'VRBackgrounView/Classes/**/*'
   
