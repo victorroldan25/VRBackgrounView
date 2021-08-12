@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Esta librería aplica un color de background a un view'
+  s.description      = 'Esta librería aplica un color de background a un view. esta librería se puede descargar totalmente gratis desde cocoapods'
 
   s.homepage         = 'https://github.com/victorroldan25/VRBackgrounView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
